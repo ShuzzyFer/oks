@@ -1,7 +1,7 @@
 module com.oks.oks1 {
     requires javafx.controls;
     requires javafx.fxml;
-    requires com.fazecast.jSerialComm;
+    requires jssc;
 
 
     opens com.oks.oks1 to javafx.fxml;
